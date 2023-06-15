@@ -1,8 +1,8 @@
-export default function About() {
+export default function Bio() {
   return (
     <main>
       <div>
-        <h1>About</h1>
+        <h1>Bio</h1>
       </div>
     </main>
   );

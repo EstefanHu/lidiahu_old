@@ -22,7 +22,9 @@ export default function RootLayout({
           </Link>
 
           <nav>
-            <Link href="/about">about</Link>
+            <Link href="/posts">posts</Link>
+            <Link href="/gallery">gallery</Link>
+            <Link href="/bio">bio</Link>
             <Link href="/contact">contact</Link>
           </nav>
         </header>
