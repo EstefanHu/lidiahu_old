@@ -5,8 +5,8 @@
   /* --component: #333333; */
   /* --backgroundAccent: #292929; */
   --layout: #ffffff;
-  --accent: #F4ABBA;
-  --accentDark: #E7576D;
+  --accent: #f4abba;
+  --accentDark: #e7576d;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -82,4 +82,11 @@ table {
 
 a {
   text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: var(--text);
 }
