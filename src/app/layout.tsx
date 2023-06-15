@@ -5,7 +5,7 @@ import styles from './layout.module.scss';
 export const metadata = {
   title: 'Lidia Hu',
   description: 'Stories by Lidia',
-  keywords: ['Lidia', 'Hu', 'River'],
+  keywords: ['Story', 'Writing', 'Book'],
 };
 
 export default function RootLayout({
