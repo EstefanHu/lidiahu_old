@@ -1,0 +1,10 @@
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: Twitterbot
+Disallow:
+
+User-agent: *
+Disallow: /app/
+
+SITEMAP: https://lidiahu/sitemap.xml
