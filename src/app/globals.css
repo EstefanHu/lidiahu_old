@@ -1,19 +1,21 @@
 :root {
   --max-width: 1100px;
   --border-radius: 6px;
-
-  /* --component: #333333; */
-  /* --backgroundAccent: #292929; */
   --layout: #ffffff;
-  --accent: #f4abba;
-  --accentDark: #e7576d;
+  --accent: #e7576d;
+  --accentSecondary: #f4abba;
+  --text: #333333;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --component: #333333;
+    --backgroundAccent: #292929;
     --background: #1e1e1e;
     --layout: #181818;
     --text: #d4d4d4;
+    --accent: #f4abba;
+    --accentSecondary: #e7576d;
   }
 }
 

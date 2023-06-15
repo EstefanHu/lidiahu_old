@@ -16,9 +16,6 @@
             &:hover {
                 color: var(--accent);
             }
-            &:focus {
-                color: var(--accentDark);
-            }
         }
 
         nav {
@@ -37,10 +34,6 @@
 
                 &:hover {
                     color: var(--accent);
-                }
-
-                &:focus {
-                    color: var(--accentDark);
                 }
             }
         }
