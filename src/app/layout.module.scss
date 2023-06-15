@@ -1,0 +1,47 @@
+.body {
+    header {
+        width: 100vw;
+        height: 60px;
+        background-color: var(--layout);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+
+        h1 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            transition: color 0.2s;
+
+            &:hover {
+                color: var(--accent);
+            }
+            &:focus {
+                color: var(--accentDark);
+            }
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 100%;
+            width: 250px;
+
+            a {
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 0.75rem;
+                transition: color 0.2s;
+
+                &:hover {
+                    color: var(--accent);
+                }
+
+                &:focus {
+                    color: var(--accentDark);
+                }
+            }
+        }
+    }
+}
