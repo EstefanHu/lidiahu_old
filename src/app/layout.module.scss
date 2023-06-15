@@ -33,6 +33,7 @@
                 font-weight: bold;
                 font-size: 0.75rem;
                 transition: color 0.2s;
+                color: var(--text);
 
                 &:hover {
                     color: var(--accent);
