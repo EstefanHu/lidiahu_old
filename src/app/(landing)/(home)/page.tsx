@@ -1,3 +1,4 @@
+import Story from '@/components/Story';
 import hero from './hero.module.scss';
 
 export default function Home() {
@@ -7,6 +8,8 @@ export default function Home() {
         <h1>I will extend peace to her like a river</h1>
         <p>- Isaiah 66:12</p>
       </section>
+
+      <Story />
     </>
   );
 }

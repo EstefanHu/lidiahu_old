@@ -24,6 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href='/contact'>contact</Link>
           </nav>
         </header>
+
         {children}
       </body>
     </html>

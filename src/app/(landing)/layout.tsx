@@ -2,7 +2,7 @@ const STYLES = {
   width: '100vw',
   height: 'fit-content',
   display: 'flex',
-  FlexDirection: 'column',
+  flexDirection: 'column' as 'column',
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {

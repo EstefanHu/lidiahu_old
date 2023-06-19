@@ -92,3 +92,7 @@ h3,
 p {
   color: var(--text);
 }
+
+i {
+  font-style: italic;
+}
