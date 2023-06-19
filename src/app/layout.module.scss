@@ -1,3 +1,5 @@
+$mobileWidth: 414px;
+
 .body {
   header {
     width: 100vw;
@@ -36,6 +38,36 @@
           color: var(--accent);
         }
       }
+
+      @media screen and (max-width: $mobileWidth) {
+        display: none;
+      }
+    }
+  }
+
+  .mobileNavigation {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--component);
+    height: 60px;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-top: 1px solid var(--border-color);
+
+    @media screen and (max-width: $mobileWidth) {
+      display: flex;
+    }
+  }
+
+  .favicon {
+    display: none;
+
+    @media screen and (max-width: $mobileWidth) {
+      display: block;
     }
   }
 }

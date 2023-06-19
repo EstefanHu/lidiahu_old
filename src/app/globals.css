@@ -5,6 +5,8 @@
   --accent: #e7576d;
   --accentSecondary: #f4abba;
   --text: #333333;
+  --component: white;
+  --border-color: #f1f1f1;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -12,6 +14,7 @@
     --component: #333333;
     --backgroundAccent: #292929;
     --background: #1e1e1e;
+    --border-color: #333333;
     --layout: #181818;
     --text: #d4d4d4;
     --accent: #f4abba;

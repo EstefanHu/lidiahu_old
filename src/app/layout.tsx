@@ -1,6 +1,10 @@
-import Link from 'next/link';
 import './globals.css';
+import Link from 'next/link';
+import Image from 'next/image';
 import styles from './layout.module.scss';
+import { GrGallery, GrContact } from 'react-icons/gr';
+import { SlUserFemale } from 'react-icons/sl';
+import { LuLayoutDashboard } from 'react-icons/lu';
 
 export const metadata = {
   title: 'Lidia Hu',
@@ -23,9 +27,39 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href='/bio'>bio</Link>
             <Link href='/contact'>contact</Link>
           </nav>
+
+          <Link href='/' className={styles.favicon}>
+            <Image src='/favicon.ico' alt='favicon' width='18' height='18' />
+          </Link>
         </header>
 
         {children}
+
+        <nav className={styles.mobileNavigation}>
+          <div>
+            <Link href='/p'>
+              <LuLayoutDashboard />
+            </Link>
+          </div>
+
+          <div>
+            <Link href='/g'>
+              <GrGallery />
+            </Link>
+          </div>
+
+          <div>
+            <Link href='/bio'>
+              <SlUserFemale />
+            </Link>
+          </div>
+
+          <div>
+            <Link href='/contact'>
+              <GrContact />
+            </Link>
+          </div>
+        </nav>
       </body>
     </html>
   );
