@@ -85,10 +85,10 @@ export default function Home() {
         </Paragraph>
 
         <Paragraph>
-          The trail began nice. Within a few steps it became arduous. Marie climbed it&apos;s incline over large rocks
-          onto boulders and sought safe paths. She reached a straight up section. Without an obvious way, Marie leaned
-          into the mountain. <i>I should lean on my Lord like I do with you. More so now that I live alone.</i> She took
-          a step up. Her right foot slipped. She hugged the mountain tight.&nbsp;
+          The trail began nice. Within a few steps it became arduous. Marie soon climbed over large rocks onto boulders
+          and sought safe paths. She reached a straight up section. Without an obvious way, Marie leaned into the
+          mountain. <i>I should lean on my Lord like I do with you. More so now that I live alone.</i> She took a step
+          up. Her right foot slipped. She hugged the mountain tight.&nbsp;
           <i>Pay attention Marie! Falling backwards means death. Or horrific injuries.</i>
         </Paragraph>
 
