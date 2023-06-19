@@ -8,26 +8,23 @@ export const metadata = {
   keywords: ['Story', 'Writing', 'Book'],
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body className={styles.body}>
         <header>
-          <Link href="/">
+          <Link href='/'>
             <h1>Lidia</h1>
           </Link>
 
           <nav>
-            <Link href="/posts">posts</Link>
-            <Link href="/gallery">gallery</Link>
-            <Link href="/bio">bio</Link>
-            <Link href="/contact">contact</Link>
+            <Link href='/p'>posts</Link>
+            <Link href='/gallery'>gallery</Link>
+            <Link href='/bio'>bio</Link>
+            <Link href='/contact'>contact</Link>
           </nav>
         </header>
+
         {children}
       </body>
     </html>
