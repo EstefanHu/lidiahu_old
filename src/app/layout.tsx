@@ -23,7 +23,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
           <nav>
             <Link href='/p'>posts</Link>
-            <Link href='/g'>gallery</Link>
             <Link href='/bio'>bio</Link>
             <Link href='/contact'>contact</Link>
           </nav>
@@ -36,29 +35,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
 
         <nav className={styles.mobileNavigation}>
-          <div>
-            <Link href='/p'>
-              <LuLayoutDashboard />
-            </Link>
-          </div>
+          <Link href='/p'>
+            <LuLayoutDashboard />
+          </Link>
 
-          <div>
-            <Link href='/g'>
-              <GrGallery />
-            </Link>
-          </div>
+          <Link href='/bio'>
+            <SlUserFemale />
+          </Link>
 
-          <div>
-            <Link href='/bio'>
-              <SlUserFemale />
-            </Link>
-          </div>
-
-          <div>
-            <Link href='/contact'>
-              <GrContact />
-            </Link>
-          </div>
+          <Link href='/contact'>
+            <GrContact />
+          </Link>
         </nav>
       </body>
     </html>
