@@ -28,7 +28,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </nav>
 
           <Link href='/' className={styles.favicon}>
-            <Image src='/favicon.ico' alt='favicon' width='18' height='18' />
+            <div className={styles.faviconWrapper}>
+              <div>
+                <Image src='/favicon.ico' alt='favicon' width='25' height='25' />
+              </div>
+            </div>
           </Link>
         </header>
 

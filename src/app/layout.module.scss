@@ -80,6 +80,16 @@ $mobileWidth: 414px;
 
   .favicon {
     display: none;
+    width: 35px;
+    height: 35px;
+
+    .faviconWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: inherit;
+      width: inherit;
+    }
 
     @media screen and (max-width: $mobileWidth) {
       display: block;
