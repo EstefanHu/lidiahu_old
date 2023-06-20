@@ -33,6 +33,7 @@ $mobileWidth: 414px;
         font-size: 0.75rem;
         transition: color 0.2s;
         color: var(--text);
+        padding: 4px 8px;
 
         &:hover {
           color: var(--accent);
@@ -57,6 +58,20 @@ $mobileWidth: 414px;
     justify-content: space-between;
     padding: 0 20px;
     border-top: 1px solid var(--border-color);
+
+    a {
+      width: 50px;
+      height: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      svg {
+        height: 25px;
+        width: 25px;
+      }
+    }
 
     @media screen and (max-width: $mobileWidth) {
       display: flex;
