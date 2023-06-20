@@ -1,25 +1,12 @@
 :root {
   --max-width: 1100px;
   --border-radius: 6px;
-  --layout: #ffffff;
   --accent: #e7576d;
   --accentSecondary: #f4abba;
   --text: #333333;
-  --component: white;
   --border-color: #f1f1f1;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --component: #333333;
-    --backgroundAccent: #292929;
-    --background: #1e1e1e;
-    --border-color: #333333;
-    --layout: #181818;
-    --text: #d4d4d4;
-    --accent: #f4abba;
-    --accentSecondary: #e7576d;
-  }
+  --header-height: 60px;
+  --box-shadow: 2px 2px 10px rgb(230, 230, 230);
 }
 
 *,
@@ -36,7 +23,6 @@
   vertical-align: baseline;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
     Helvetica Neue, sans-serif;
-  color: #404040;
 }
 
 article,
@@ -98,4 +84,9 @@ p {
 
 i {
   font-style: italic;
+  color: var(--text);
+}
+
+.hidden {
+  display: none;
 }
