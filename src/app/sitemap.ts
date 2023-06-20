@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
-      url: 'https://lidiahu.com/g',
+      url: 'https://lidiahu.com/p/extended-peace',
       lastModified: new Date(),
     },
     {
