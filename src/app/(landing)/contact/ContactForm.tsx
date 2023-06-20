@@ -15,9 +15,7 @@ export default function ContactForm() {
       <fieldset>
         <input type='text' placeholder='Name' value={name} onChange={(e) => setName(e.target.value)} />
         <input type='text' placeholder='Email' value={email} onChange={(e) => setEmail(e.target.value)} />
-        <textarea value={message} onChange={(e) => setMessage(e.target.value)}>
-          Message
-        </textarea>
+        <textarea placeholder='Message' value={message} onChange={(e) => setMessage(e.target.value)} />
       </fieldset>
 
       <input type='submit' className='hidden' />
