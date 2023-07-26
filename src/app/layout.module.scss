@@ -25,7 +25,7 @@ $mobileWidth: 414px;
       align-items: center;
       justify-content: space-around;
       height: 100%;
-      width: 190px;
+      width: fit-content;
 
       a {
         text-transform: uppercase;
@@ -40,9 +40,9 @@ $mobileWidth: 414px;
         }
       }
 
-      @media screen and (max-width: $mobileWidth) {
-        display: none;
-      }
+      // @media screen and (max-width: $mobileWidth) {
+      //   display: none;
+      // }
     }
   }
 
@@ -74,9 +74,9 @@ $mobileWidth: 414px;
       }
     }
 
-    @media screen and (max-width: $mobileWidth) {
-      display: flex;
-    }
+    // @media screen and (max-width: $mobileWidth) {
+    //   display: flex;
+    // }
   }
 
   .favicon {
@@ -92,8 +92,8 @@ $mobileWidth: 414px;
       width: inherit;
     }
 
-    @media screen and (max-width: $mobileWidth) {
-      display: block;
-    }
+    // @media screen and (max-width: $mobileWidth) {
+    //   display: block;
+    // }
   }
 }
