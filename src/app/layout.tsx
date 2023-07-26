@@ -23,8 +23,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
           <nav>
             <Link href='/p'>posts</Link>
-            <Link href='/bio'>bio</Link>
-            <Link href='/contact'>contact</Link>
           </nav>
 
           <Link href='/' className={styles.favicon}>
